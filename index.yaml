@@ -3,13 +3,13 @@ entries:
   cwf-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-05-27T14:40:52.735957-07:00"
+    created: "2021-05-27T17:00:37.526234-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's cwf module
-    digest: 03bfe984f5b737c9817e2e3307d4787be20358c4fe358a7f3714dc381fa4cdaa
+    digest: ffd999410532bad722579a7c81f76c2ab9b6bbb33ac62061f45efc3cf8d3d0cc
     keywords:
     - magma
     - or8cr
@@ -23,13 +23,13 @@ entries:
   fbinternal-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-05-27T14:40:52.736943-07:00"
+    created: "2021-05-27T17:00:37.527546-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's fbinternal module
-    digest: 67470aeb950f07018d7ed25660c71221d8f3a3d779b61f126516ca0c12af9bbb
+    digest: 676a733bc03870afb56e157e57182080e02c00bf0e32cd4e67c150a6bea6db09
     keywords:
     - magma
     - or8cr
@@ -43,13 +43,13 @@ entries:
   feg-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-05-27T14:40:52.739046-07:00"
+    created: "2021-05-27T17:00:37.530974-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's feg module
-    digest: 552cbf529a0508b0916973a74b778db93aed853328af60587d62f41b95a548ae
+    digest: 4a5e8c56dcc3697a4f8aba500d96dfe712436a48d71015105b26965a72bbff44
     keywords:
     - magma
     - or8cr
@@ -62,7 +62,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-05-27T14:40:52.738055-07:00"
+    created: "2021-05-27T17:00:37.529278-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -82,13 +82,13 @@ entries:
   lte-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-05-27T14:40:52.740001-07:00"
+    created: "2021-05-27T17:00:37.532133-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's lte module
-    digest: f8bc466a3a45bb45cf4ba44ec73d75b538aaf6c8c9baa40d486b56846d65bf72
+    digest: 96112e03a6722ecab651707c66454da7975f77f5bd3d0321b18db141d10711d8
     keywords:
     - magma
     - or8cr
@@ -102,7 +102,7 @@ entries:
   orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-05-27T14:40:52.758121-07:00"
+    created: "2021-05-27T17:00:37.547214-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -124,7 +124,7 @@ entries:
       repository: file://../orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator
-    digest: da8fc76dfc5c732bcffc7dc516cf0cc7cb08c1519fe01ae39c289618b8a369de
+    digest: 83ad83d2983c0b7be6078c186118065d45f0ac01d457f69f57c41e207f97b782
     keywords:
     - magma
     - or8cr
@@ -136,7 +136,7 @@ entries:
     version: 1.5.23
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-05-27T14:40:52.749773-07:00"
+    created: "2021-05-27T17:00:37.540629-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -171,13 +171,13 @@ entries:
   wifi-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-05-27T14:40:52.759021-07:00"
+    created: "2021-05-27T17:00:37.548039-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's wifi module
-    digest: 638e498f1e2f791e93e29ad4157d99cb072e6d887f766fd0eaa5ba18e05c576e
+    digest: 5b384b710fd182e80bd36882375d2680d6813b9ccba8898506f3d66321c6baf1
     keywords:
     - magma
     - or8cr
@@ -188,4 +188,4 @@ entries:
     urls:
     - wifi-orc8r-0.2.1.tgz
     version: 0.2.1
-generated: "2021-05-27T14:40:52.734795-07:00"
+generated: "2021-05-27T17:00:37.52482-07:00"
